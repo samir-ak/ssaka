@@ -1,0 +1,273 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.medium-heading {
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 6% 9%;
+}
+.containerser-fluid{
+  padding: 6% 9%;
+}
+/* Sections */
+
+.colored-section {
+  background-color: #ffd700;
+  color: #fff;
+  font-weight: 500;
+}
+.coloredser-section {
+  background-color: #ffd700;
+  color: #fff;
+  font-weight: 500;
+}
+.white-section {
+  background-color: #fff;
+}
+.whiteser-section {
+  background-color: #fff;
+}
+.sblueser-section {
+  background-color: #87cefa;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+.navbarser {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.navbarser-services {
+  font-family: "Ubuntu";
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 12px;
+  font-weight: bold;
+  }
+.navs-item {
+    padding: 0 12px;
+    font-weight: bold;
+    }
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-bold";
+  color:#ffff;
+}
+.navs-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-bold";
+  color:#00ffff;
+}
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ffd700;
+  color: #ffff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 9% 6%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 50%;
+  transform: rotate(-5deg);
+  position: absolute;
+  right: 30%;
+}
+.title-simage {
+  width: 50%;
+  transform: rotate(-5deg);
+  position: absolute;
+  right: 30%;
+}
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #adff2f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #00008b;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #00bfff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.links-logo {
+  width: 10%;
+  margin: 10px 10px 25px 15px;
+}
+.links-desc {
+  width: 10%;
+  padding-left: 350px;
+  margin: 20px 10px 25px 5px;
+}
+
+.links-desc2 {
+  width: 10%;
+  padding-left: 45px;
+  margin: 20px 10px 25px 5px;
+
+}
+.links-desc3 {
+  width: 10%;
+  padding-left: 45px;
+  margin: 20px 10px 25px 5px;
+
+}
+#press {
+  background-color: #00bfff;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+#services {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+.KnowbaseIT-body {
+  padding-left: 40px;
+  background-color:#ffff00;
+font-size: 0.8rem;
+}
+.KnowbaseGST-body {
+  background-color:#ffff00;
+  font-size: 0.8rem;
+}
+
+.KnowbaseSAP-body{
+  background-color:#ffff00;
+  font-size: 0.8rem;
+}
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.CM{
+  color:#00008b;
+  font-size: 1.2rem;
+  text-align: right;
+  padding-left: 10px;
+}
+.CM:hover{
+color:#ffa500;
+}
+.lcontainer {
+ paddding: 10% 10% 30% 20%;
+  margin:1% 20% 1% 1%;
+  font-size: 1.1rem;
+  text-align:left;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
