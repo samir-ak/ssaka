@@ -282,10 +282,10 @@ p {
   grid-template-columns: 1fr 4fr;
 }
 .swebprof{
-  margin-left: 905px;
+  margin-left: 900px;
   text-align:right;
 }
 .hp {
-margin-right: 10px;
+margin-right: 5px;
   text-align:left;
 }
