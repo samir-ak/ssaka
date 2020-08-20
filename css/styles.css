@@ -281,3 +281,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
+.swebprof{
+  margin-left: 905px;
+  text-align:right;
+}
