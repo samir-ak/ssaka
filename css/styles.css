@@ -43,13 +43,13 @@ p {
 .colored-section {
   background-color: #ffd700;
   color: #fff;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .coloredser-section {
   background-color: #ffd700;
   color: #fff;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .white-section {
@@ -94,13 +94,13 @@ p {
 
 .navs-item {
   padding: 0 12px;
-  font-weight: bold;
+  font-weight: 500;
 }
-
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: "Montserrat-bold";
   color: #ffff;
+  font-weight:bolder;
 }
 
 .navs-link {
@@ -231,19 +231,39 @@ p {
 
 /* CTA Section */
 .KnowbaseIT-body {
-  padding-left: 40px;
+  padding-left: 25px;
+  padding-right: 3px;
   background-color: #ffff00;
   font-size: 0.8rem;
 }
 
 .KnowbaseGST-body {
+  padding-left: 6px;
+  padding-right: 3px;
   background-color: #ffff00;
   font-size: 0.8rem;
 }
+.KnowbaseEXIM-body{
+  padding-left: 6px;
+  padding-right: 3px;
+  background-color:#ffff00;
+  font-size: 0.7rem;
+}
 
 .KnowbaseSAP-body {
+  padding-left: 6px;
+  padding-right: 3px;
   background-color: #ffff00;
   font-size: 0.8rem;
+}
+.KnowbaseCACT-body{
+  padding-left: 6px;
+  padding-right: 3px;
+  background-color:#ffff00;
+  font-size: 0.7rem;
+}
+
+.card {
 }
 
 /* Footer Section */
@@ -282,10 +302,10 @@ p {
   grid-template-columns: 1fr 4fr;
 }
 .swebprof{
-  margin-left: 850px;
+  margin-left: 905px;
   text-align:right;
 }
-.hp {
-margin-right: 2px;
-  text-align:left;
+.hp{
+  margin-left: 2px;
+  text-align: left;
 }
