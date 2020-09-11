@@ -292,3 +292,11 @@ color:#ffa500;
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
+.swebprof{
+  margin-left: 905px;
+  text-align:right;
+}
+.hp{
+  margin-left: 2px;
+  text-align: left;
+}
